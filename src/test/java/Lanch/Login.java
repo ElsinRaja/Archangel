@@ -23,5 +23,6 @@ public class Login {
         page.locator("(//div[@class='kcell sknbtnlogingreen']//input)[2]").click();
         PlaywrightAssertions.assertThat(page).hasTitle("ArchAngel");
         browser.close();
+//        paf
 	}
 }
